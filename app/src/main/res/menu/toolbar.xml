@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_decrease"
+        android:icon="@drawable/ic_action_previous_item"
+        android:orderInCategory="100"
+        android:title="@string/action_decrease"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_increase"
+        android:icon="@drawable/ic_action_next_item"
+        android:orderInCategory="150"
+        android:title="@string/action_increase"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_soft_edges"
+        android:icon="@drawable/ic_action_soft_edges"
+        android:orderInCategory="200"
+        android:title="@string/action_soft_edges"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_hard_edges"
+        android:icon="@drawable/ic_action_hard_edges"
+        android:orderInCategory="250"
+        android:title="@string/action_hard_edges"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_center"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="300"
+        android:title="@string/action_center"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_enable_x"
+        android:icon="@drawable/ic_action_enable_x"
+        android:orderInCategory="400"
+        android:title="@string/action_enable_x"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_disable_x"
+        android:icon="@drawable/ic_action_disable_x"
+        android:orderInCategory="450"
+        android:title="@string/action_disable_x"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_enable_y"
+        android:icon="@drawable/ic_action_enable_y"
+        android:orderInCategory="500"
+        android:title="@string/action_enable_y"
+        compat:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_disable_y"
+        android:icon="@drawable/ic_action_disable_y"
+        android:orderInCategory="550"
+        android:title="@string/action_disable_y"
+        compat:showAsAction="always" />
+
+</menu>

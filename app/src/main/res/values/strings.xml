@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Icosphere</string>
+
+    <string name="error_need_gles_20">Need OpenGLES 2.0</string>
+
+    <string name="action_about">About</string>
+    <string name="action_decrease">Decrease refinement</string>
+    <string name="action_increase">Increase refinement</string>
+    <string name="action_center">Center</string>
+    <string name="action_soft_edges">Soft edges</string>
+    <string name="action_hard_edges">Hard edges</string>
+    <string name="action_enable_x">Enable x-axis</string>
+    <string name="action_disable_x">Lock x-axis</string>
+    <string name="action_enable_y">Enable y-axis</string>
+    <string name="action_disable_y">Lock y-axis</string>
+
+    <string name="shape_icosahedron">Icosahedron</string>
+    <string name="shape_icosphere">Icosphere</string>
+    <string name="shape_vertex_count">Vertex count:\u0020</string>
+    <string name="shape_hard_edges">Hard edges</string>
+    <string name="shape_soft_edges">Soft edges</string>
+
+    <string name="alert_dialog_dismiss">Dismiss</string>
+    <string name="about_title">About Icosphere</string>
+    <string name="about_message">Message</string>
+
+</resources>

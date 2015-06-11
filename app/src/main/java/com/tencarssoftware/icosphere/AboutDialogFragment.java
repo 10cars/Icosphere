@@ -16,7 +16,7 @@ public class AboutDialogFragment extends DialogFragment {
     @NonNull
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
-                .setIcon(R.drawable.ic_action_about)
+                .setIcon(R.mipmap.ic_launcher)
                 .setTitle(R.string.about_title)
                 .setMessage(R.string.about_message)
                 .setNeutralButton(R.string.alert_dialog_dismiss,

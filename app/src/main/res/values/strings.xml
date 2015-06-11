@@ -13,6 +13,7 @@
     <string name="action_disable_x">Lock x-axis</string>
     <string name="action_enable_y">Enable y-axis</string>
     <string name="action_disable_y">Lock y-axis</string>
+    <string name="action_github">Fork me on GitHub</string>
 
     <string name="shape_icosahedron">Icosahedron</string>
     <string name="shape_icosphere">Icosphere</string>
@@ -22,6 +23,6 @@
 
     <string name="alert_dialog_dismiss">Dismiss</string>
     <string name="about_title">About Icosphere</string>
-    <string name="about_message">Message</string>
+    <string name="about_message">Demo/Tutorial on how to programmatically draw an Icosphere using OpenGL ES on Android.</string>
 
 </resources>

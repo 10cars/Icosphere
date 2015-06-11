@@ -6,7 +6,9 @@ package com.tencarssoftware.icosphere;
 
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ConfigurationInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -40,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_about:
                 new AboutDialogFragment().show(getSupportFragmentManager(), "aboutDialog");
+                return true;
+            case R.id.action_github:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/10cars/Icosphere")));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

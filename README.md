@@ -1,4 +1,4 @@
-Demo/Tutorial on how to programmatically draw an Icosphere.
+Demo/Tutorial on how to programmatically draw an Icosphere on Android using OpenGL ES.
 
 What you get:
 - adjustable levels of refinement
